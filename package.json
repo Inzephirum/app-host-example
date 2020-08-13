@@ -1,0 +1,17 @@
+{
+  "name": "app-host",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sergey Gavshin",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "lerna run start"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

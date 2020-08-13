@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "jsx": "react",
+    "target": "es6",
+    "lib": ["dom", "webworker", "es6", "scripthost"]
+  }
+}
